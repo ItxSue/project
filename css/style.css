@@ -3,11 +3,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffe4e1; /* Light pink background for all pages */
-  color: #333; /* Dark grey text */
+  background-color: #ffe4e1; /* Light pink background */
+  color: #333;
 }
 
-/* Navigation Bar Styling */
+/* Navbar Styling */
 .navbar {
   background-color: #ffc0cb; /* Light pink navbar */
   padding: 1rem;
@@ -19,9 +19,9 @@ body {
 /* Navigation Items */
 .navbar-nav {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-nav .nav-item {
@@ -30,35 +30,23 @@ body {
 
 .navbar-nav .nav-link {
   text-decoration: none;
-  color: #333; /* Dark grey for links */
-  font-size: 1.1rem;
+  color: #333; /* Dark grey text */
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ff69b4; /* Bright pink hover effect */
-  text-decoration: underline;
+  color: #ff69b4; /* Bright pink on hover */
 }
 
-/* Custom Brand Styling for "Nail Care" */
+/* Custom Brand Styling */
 .custom-brand {
-  font-size: 3rem; /* Large font for Nail Care */
-  font-family: "Pacifico", cursive; /* Cute handwritten font */
-  color: #ff69b4; /* Bright pink text */
-  font-weight: bold;
-}
-
-.custom-brand:hover {
-  color: #ff69b4; /* No hover change */
-  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  color: #ff69b4;
+  font-size: 3rem;
 }
 
 /* Footer Styling */
 footer {
-  background-color: #ffc0cb; /* Match the navbar */
-  color: white;
+  background-color: #ffc0cb; /* Light pink footer */
   text-align: center;
   padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
