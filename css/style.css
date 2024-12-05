@@ -3,13 +3,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffe4e1; /* Light pink background */
+  background-color: #ffe4e1; /* Light pink background for all pages */
   color: #333;
 }
 
 /* Navigation Bar Styling */
 .navbar {
-  background-color: #ffc0cb; /* Light pink bar */
+  background-color: #ffc0cb; /* Light pink navbar */
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -30,12 +30,12 @@ body {
 
 .navbar-nav .nav-link {
   text-decoration: none;
-  color: #333; /* Dark grey text for links */
+  color: #333; /* Dark grey for links */
   font-size: 1.1rem;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ff69b4; /* Pink hover effect */
+  color: #ff69b4; /* Bright pink on hover */
   text-decoration: underline;
 }
 
@@ -43,11 +43,28 @@ body {
 .custom-brand {
   font-size: 3rem; /* Keep the size you love */
   font-family: "Pacifico", cursive; /* Cute handwritten font */
-  color: #ff69b4; /* Bright pink */
+  color: #ff69b4; /* Bright pink text */
   font-weight: bold;
 }
 
 .custom-brand:hover {
   color: #ff69b4; /* No hover change */
   text-decoration: none;
+}
+
+/* Page Background for About Page */
+.main-about {
+  background-color: #ffe4e1; /* Light pink background for About page */
+  padding: 2rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #ffc0cb; /* Light pink footer to match the navbar */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
