@@ -97,18 +97,21 @@ main {
   color: white;
 }
 
-/* Pink button styling for Contact Page */
+/* Pink button styling with !important */
 .btn-pink {
-  background-color: #ff69b4; /* Pink button color */
-  border: none;
-  color: white;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  border-radius: 5px; /* Rounded edges */
-  transition: background-color 0.3s ease;
+  background-color: #ff69b4 !important; /* Forces the pink background */
+  border: none !important; /* Removes any unwanted borders */
+  color: white !important; /* Ensures text is white */
+  padding: 0.5rem 1rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important; /* Rounded edges */
+  text-transform: uppercase !important; /* Capitalize text */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .btn-pink:hover {
-  background-color: #ff85c2; /* Lighter pink on hover */
-  color: white;
+  background-color: #ff85c2 !important; /* Lighter pink on hover */
+  color: white !important; /* Ensures hover text stays white */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2) !important; /* Adds a shadow effect */
 }
+
