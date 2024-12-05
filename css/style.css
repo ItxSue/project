@@ -87,9 +87,29 @@ main {
   background-color: #ff69b4; /* Pink buttons */
   border: none;
   color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px; /* Rounded edges */
+  transition: background-color 0.3s ease;
 }
 
 .card .btn:hover {
-  background-color: #ff85c2; /* Slightly lighter pink hover */
+  background-color: #ff85c2; /* Lighter pink on hover */
+  color: white;
+}
+
+/* Pink button styling for Contact Page */
+.btn-pink {
+  background-color: #ff69b4; /* Pink button color */
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px; /* Rounded edges */
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #ff85c2; /* Lighter pink on hover */
   color: white;
 }
