@@ -1,95 +1,52 @@
-/* General Styling for the Body */
+/* General Styling for Body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #ffe4e1; /* Light pink background */
-  color: #333; /* Dark grey text */
+  color: #333;
 }
 
-/* Header Styling */
-header {
-  background-color: #ffc0cb; /* Pink navbar background */
-  color: white;
+/* Navigation Bar Styling */
+.navbar {
+  background-color: #ffc0cb; /* Light pink bar */
   padding: 1rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Custom Brand Styling for "Nail Care" */
-.custom-brand {
-  font-size: 5rem; /* Make it much bigger */
-  font-family: "Pacifico", cursive; /* Cute handwritten font */
-  color: #ff69b4; /* Bright pink color */
-  font-weight: bold; /* Make it bold */
-  text-transform: capitalize; /* Capitalize the first letter */
-  text-align: center; /* Center-align */
-  display: inline-block; /* Ensure proper spacing */
-  margin-left: 1rem;
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
-.custom-brand:hover {
-  color: #ff69b4; /* Keep hover color consistent */
-  text-decoration: none; /* No underline */
+.navbar-nav .nav-item {
+  margin: 0 1rem;
 }
 
-/* Navbar Links Styling */
 .navbar-nav .nav-link {
-  margin: 0 0.5rem;
-  color: #555; /* Grey color for links */
   text-decoration: none;
+  color: #333; /* Dark grey for text */
   font-size: 1.1rem;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #000; /* Darker hover color */
-  text-decoration: underline; /* Underline on hover */
+  color: #ff69b4; /* Pink hover effect */
+  text-decoration: underline;
 }
 
-/* Footer Styling */
-footer {
-  background-color: #ffc0cb; /* Match the header color */
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+/* Custom Brand Styling for "Nail Care" */
+.custom-brand {
+  font-size: 3rem; /* Keep the size you love */
+  font-family: "Pacifico", cursive;
+  color: #ff69b4; /* Bright pink */
+  font-weight: bold;
 }
 
-/* Main Content Styling */
-main {
-  padding: 2rem;
-  text-align: center; /* Center-align content */
-}
-
-/* Cards in Menu */
-.card {
-  border: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  margin-bottom: 2rem;
-}
-
-.card img {
-  border-radius: 10px; /* Slight rounding for images */
-}
-
-.card-title {
-  font-size: 1.5rem;
-  color: #ff69b4; /* Bright pink titles */
-}
-
-.card-text {
-  font-size: 1rem;
-  color: #333; /* Dark text for descriptions */
-}
-
-.card .btn {
-  background-color: #ff69b4; /* Pink buttons */
-  border: none;
-  color: white;
-}
-
-.card .btn:hover {
-  background-color: #ff85c2; /* Slightly lighter pink hover */
-  color: white;
+.custom-brand:hover {
+  color: #ff69b4; /* No hover change */
+  text-decoration: none;
 }
