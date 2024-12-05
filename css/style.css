@@ -16,6 +16,7 @@ body {
   align-items: center;
 }
 
+/* Navigation Items */
 .navbar-nav {
   list-style: none;
   padding: 0;
@@ -29,7 +30,7 @@ body {
 
 .navbar-nav .nav-link {
   text-decoration: none;
-  color: #333; /* Dark grey for text */
+  color: #333; /* Dark grey text for links */
   font-size: 1.1rem;
 }
 
@@ -41,7 +42,7 @@ body {
 /* Custom Brand Styling for "Nail Care" */
 .custom-brand {
   font-size: 3rem; /* Keep the size you love */
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", cursive; /* Cute handwritten font */
   color: #ff69b4; /* Bright pink */
   font-weight: bold;
 }
