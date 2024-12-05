@@ -20,7 +20,6 @@ header {
   font-size: 3rem; /* Make it much bigger */
   font-family: "Pacifico", cursive; /* Cute handwritten font */
   color: #ff69b4; /* Bright pink color */
-  font-weight: bold; /* Make it bold */
   text-transform: capitalize; /* Capitalize the first letter */
   text-align: center; /* Center-align */
   display: inline-block; /* Ensure proper spacing */
